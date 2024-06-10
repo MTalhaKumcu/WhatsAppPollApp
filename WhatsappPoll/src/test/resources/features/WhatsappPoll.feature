@@ -1,6 +1,10 @@
 Feature: WhatsappPoll App
+
+  @WhatsApp
   Scenario: WhatsappPoll
     Given go to page
+    When Accept google accept cookies
+    When Some buttons in WsWeb
     When click search button in whatsapp
     Then write text in searchBox
     Then choose the group

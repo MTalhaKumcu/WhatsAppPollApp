@@ -1,13 +1,10 @@
 package utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.bouncycastle.oer.Switch;
-import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import pages.WhatsappWeb;
 
 import java.time.Duration;
 
