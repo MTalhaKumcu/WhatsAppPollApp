@@ -11,12 +11,11 @@ public class WhatsappWebPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "//div[text()='Zaakceptuj wszystko']")
-    public WebElement cookiesAccept;
-    @FindBy(xpath = "//h3[text()='WhatsApp Web']")
-    public WebElement WhatappLinkClick;
-    @FindBy(xpath = "//span[@role='button']")
+    @FindBy(xpath = "//span[text()='Link with phone number']")
     public WebElement linkWithPhone;
+
+    @FindBy(xpath = "//*[@type='text']")
+    public WebElement numberBox;
 
 
 }
